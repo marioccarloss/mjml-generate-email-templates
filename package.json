@@ -1,0 +1,16 @@
+{
+  "name": "mjml_generate_email_templates",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Mario Carlos Roca Peñafiel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marioccarloss/mjml-generate-email-templates"
+  },
+  "dependencies": {
+    "mjml": "^4.12.0"
+  },
+  "scripts": {
+    "build": "mjml --watch ./src/$TEMPLATE.mjml -o ./src/$TEMPLATE.html"
+  }
+}
